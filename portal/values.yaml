@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: paulbouwer/hello-kubernetes
-  tag: 1.10
+  repository: ibmcom/guestbook
+  tag: v1
   pullPolicy: IfNotPresent
 
 service:
